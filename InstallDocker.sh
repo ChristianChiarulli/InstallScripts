@@ -29,4 +29,14 @@ sudo apt update
 
 sudo apt install docker-ce
 
-printf "run: sudo docker run hello-world\n"
+printf "run: <sudo docker run hello-world> to verify installation\n"
+
+# This is to add docker as a group
+sudo groupadd docker
+
+# this is so you won't have to run sudo docker on every install
+
+sudo usermod -aG docker $USER
+
+printf "\nto enable Docker on startup run <sudo systemctl enable docker>\n\n to
+disable replace 'enable' with 'disable' "
