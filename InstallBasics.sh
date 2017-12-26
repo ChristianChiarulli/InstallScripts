@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 sudo apt install -y vim i3 htop calcurse sl cowsay cmatrix espeak tmux xcompmgr
 sudo apt install -y compton 
