@@ -10,5 +10,14 @@ sudo apt install -y openvpn
 sudo apt install -y python3-pip 
 sudo apt install -y neofetch
 sudo apt install -y screenfetch
+sudo apt install -y ranger
+sudo apt install -y bluetooth
+sudo apt install -y bluez
+sudo apt install -y bluez-tools
+sudo apt install -y blueman
+sudo apt install -y rfkill
+sudo apt install -y openssh-server
+# for some reason I can't pip3 install this in my virtualenv
+#sudo apt install -y python3-tk
 sudo apt update 
 sudo apt upgrade -y
