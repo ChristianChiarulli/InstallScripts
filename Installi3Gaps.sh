@@ -1,5 +1,7 @@
 !#/bin/bash
 
+# This will not work as is try installing packages seperately - I'll fix this eventually
+
 #set -e
 
 printf "\nHello $USER this an unoffical install script for i3gaps for Debian
