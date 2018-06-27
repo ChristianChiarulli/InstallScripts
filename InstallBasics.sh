@@ -1,7 +1,10 @@
 #!/bin/bash
 
 sudo apt install -y curl
+sudo apt install -y alsa-utils
+sudo apt install -y pulseaudio
 sudo apt install -y cmake
+sudo apt install -y xbacklight
 sudo apt install -y emacs
 sudo apt install -y vim 
 sudo apt install -y compton
