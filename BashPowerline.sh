@@ -15,11 +15,11 @@ cd fonts
 cd ..
 rm -rf fonts
 
-cdmkdir -p ~/.config/powerline-shell && \
-powerline-shell --generate-config > ~/.config/powerline-shell/config.json ..
+mkdir -p ~/.config/powerline-shell && \
+powerline-shell --generate-config > ~/.config/powerline-shell/config.json
 
 
-# make sure to add this to bashrc
+# make sure to add this to .bashrc
 #function _update_ps1() {
 #    PS1=$(powerline-shell $?)
 #}
