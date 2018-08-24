@@ -40,8 +40,12 @@ sudo apt install -y rfkill
 sudo apt install -y terminator
 sudo apt install -y apt-transport-https
 sudo apt install -y openssh-server
+sudo apt install -y ncdu
+sudo apt install -y libc++abi1
+sudo apt install -y libc++1
 # for irony server in emacs
 sudo apt install -y libclang-dev
+sudo apt install -y clang
 # for some reason I can't pip3 install this in my virtualenv
 sudo apt install -y python3-tk
 sudo apt install -y virtualenv
