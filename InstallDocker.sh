@@ -6,11 +6,11 @@ sudo apt-get remove docker docker-engine docker.io
 
 sudo apt update
  
-sudo apt install apt-transport-https 
-sudo apt install ca-certificates 
-sudo apt install curl
-sudo apt install gnupg2
-sudo apt install software-properties-common
+sudo apt install -y apt-transport-https 
+sudo apt install -y ca-certificates 
+sudo apt install -y curl
+sudo apt install -y gnupg2
+sudo apt install -y software-properties-common
 
 curl -fsSL https://download.docker.com/linux/$(. /etc/os-release; echo "$ID")/gpg | sudo apt-key add -
 
@@ -27,7 +27,7 @@ echo "$ID") \
 
 sudo apt update
 
-sudo apt install docker-ce
+sudo apt install -y docker-ce
 
 printf "run: <sudo docker run hello-world> to verify installation\n"
 
