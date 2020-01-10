@@ -1,8 +1,11 @@
 #!/bin/bash
 
+sudo apt add-apt-repository multiverse
+sudo apt update 
+
 sudo apt install -y curl
-sudo apt install -y alsa-utils
-sudo apt install -y pulseaudio
+#sudo apt install -y alsa-utils
+#sudo apt install -y pulseaudio
 sudo apt install -y cmake
 sudo apt install -y xbacklight
 sudo apt install -y emacs
@@ -25,29 +28,34 @@ sudo apt install -y scrot
 sudo apt install -y redshift
 sudo apt install -y default-jre
 sudo apt install -y default-jdk
-sudo apt install -y openvpn
-sudo apt install -y python3-pip 
+#sudo apt install -y openvpn
+#sudo apt install -y python3-pip 
 sudo apt install -y neofetch
 sudo apt install -y screenfetch
 sudo apt install -y ranger
-sudo apt install -y unclutter
-sudo apt install -y dunst
-sudo apt install -y bluetooth
-sudo apt install -y bluez
-sudo apt install -y bluez-tools
-sudo apt install -y blueman
-sudo apt install -y rfkill
+#sudo apt install -y unclutter
+#sudo apt install -y dunst
+#sudo apt install -y bluetooth
+#sudo apt install -y bluez
+#sudo apt install -y bluez-tools
+#sudo apt install -y bluez-utils
+#sudo apt install -y blueman
+#sudo apt install -y rfkill
 sudo apt install -y terminator
 sudo apt install -y apt-transport-https
-sudo apt install -y openssh-server
+#sudo apt install -y openssh-server
 sudo apt install -y ncdu
-sudo apt install -y libc++abi1
-sudo apt install -y libc++1
+sudo apt install -y obs-studio
+#sudo apt install -y libc++abi1
+#sudo apt install -y libc++1
 # for irony server in emacs
-sudo apt install -y libclang-dev
-sudo apt install -y clang
+#sudo apt install -y libclang-dev
+#sudo apt install -y clang
 # for some reason I can't pip3 install this in my virtualenv
-sudo apt install -y python3-tk
+#sudo apt install -y python3-tk
 sudo apt install -y virtualenv
+sudo apt install -y wicd-gtk
+sudo snap install spotify
+sudo snap install discord
 sudo apt update 
 sudo apt upgrade -y
